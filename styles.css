@@ -5,6 +5,7 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
+  color: #4b5d68;
 }
 .container {
   width: 1250px;
@@ -163,7 +164,6 @@ body {
 
 .features {
   width: 1100px;
-  height: 560px;
 
   margin: 80px auto;
   padding: 20px 0;
@@ -179,4 +179,135 @@ body {
   font-size: 18px;
   line-height: 160%;
   text-align: center;
+}
+.tiles-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+.tile {
+  width: 530px;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.tile-bg {
+  z-index: -1;
+
+  position: absolute;
+  right: 0;
+}
+.tile-img {
+  position: absolute;
+  left: 0;
+}
+.tile-vector1-1 {
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+.tile-vector2-1 {
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  right: 100px;
+  top: 70px;
+}
+.tile-vector1-2 {
+  width: 220px;
+  height: 130px;
+
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+
+  rotate: 180deg;
+}
+.tile-vector2-3 {
+  width: 70px;
+  height: 40px;
+  position: absolute;
+
+  right: 30px;
+  top: 60px;
+  rotate: 120deg;
+}
+
+.tile-text {
+  width: 220px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: absolute;
+  left: 50%;
+}
+.tile-h4 {
+  color: #212353;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.tile-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.tile-button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  text-decoration: none;
+
+  color: #212353;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+}
+/* TESTIMONIALS */
+.testimonials-section {
+  width: 1100px;
+  height: 700px;
+  border-radius: 50px;
+  background: #9c69e2;
+
+  margin: 80px auto;
+  padding: 50px 80px;
+
+  display: flex;
+  gap: 50px;
+}
+.testimonials-h2 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+/* FOOTER */
+.footer-button {
+  width: 170px;
+  height: 60px;
+  flex-shrink: 0;
+
+  background-color: #f063b8;
+  border-radius: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  font-weight: 800;
 }
