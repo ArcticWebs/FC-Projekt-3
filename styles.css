@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Nunito Sans", sans-serif;
   color: #4b5d68;
@@ -285,6 +284,7 @@ body {
   padding: 50px 80px;
 
   display: flex;
+  flex-direction: column;
   gap: 50px;
 }
 .testimonials-h2 {
@@ -294,8 +294,90 @@ body {
   font-weight: 600;
   line-height: 130%;
 }
+.testimonials {
+  display: flex;
+  gap: 20px;
+}
 
+.test-content {
+  display: flex;
+  padding: 60px;
+  gap: 30px;
+}
+.test-img {
+  width: 90px;
+  height: 90px;
+}
+.test-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.testimonial-h5 {
+  font-weight: 900;
+  font-size: 18px;
+  color: #212353;
+}
+.testimonial-h6 {
+  font: 500 14px 120%;
+  color: #9c69e2;
+}
+.testimonial-paragraph {
+  height: 130px;
+  width: 385px;
+  line-height: 160%;
+}
+.test-1 {
+  width: 645px;
+  height: 330px;
+  border-radius: 20px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 20px 0px 0px #321d504d;
+
+  flex-shrink: 0;
+}
+.test-2 {
+  width: 400px;
+  height: 330px;
+  border-radius: 20px;
+  border: 1px solid #9c69e2;
+
+  background-color: #ffffff;
+  box-shadow: 0px 20px 0px 0px #321d504d;
+
+  flex-shrink: 0;
+}
+
+.test-3 {
+  width: 400px;
+  height: 330px;
+  border-radius: 20px;
+  border: 1px solid #9c69e2;
+
+  background-color: #ffffff;
+  box-shadow: 0px 20px 0px 0px #321d504d;
+
+  flex-shrink: 0;
+}
 /* FOOTER */
+.footer {
+  border-top: 1px solid #9c69e2;
+}
+.footer-section {
+  width: 1120px;
+  margin: 80px auto;
+}
+.footer-upper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.footer-upper-buttons {
+  display: flex;
+  gap: 20px;
+}
 .footer-button {
   width: 170px;
   height: 60px;
@@ -310,4 +392,54 @@ body {
 
   color: #ffffff;
   font-weight: 800;
+}
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 80px;
+}
+.footer-logo {
+  height: fit-content;
+  display: flex;
+  align-items: end;
+  gap: 20px;
+
+  margin-bottom: 50px;
+}
+.footer-logo-image {
+  width: 50px;
+}
+.company-name {
+  color: #212353;
+  font-weight: 900;
+  font-size: 20px;
+}
+.adress1 {
+  color: #212353;
+  font-weight: 500;
+  line-height: 10px;
+
+  margin-bottom: 20px;
+}
+.adress2 {
+  font-weight: 400;
+  line-height: 30px;
+}
+.footer-about {
+  color: #212353;
+  font-weight: 900;
+
+  margin-bottom: 30px;
+}
+.footer-about-content {
+  width: 80px;
+  line-height: 40px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyrights {
+  width: 360px;
 }
