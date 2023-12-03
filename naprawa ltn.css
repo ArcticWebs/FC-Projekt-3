@@ -1,0 +1,13 @@
+parallax-background {
+    background: url('/assets/header.jpg') no-repeat center center;
+    background-size: cover;
+  
+    width: 100%;
+    height: calc(100vh - 50px);
+  
+    position: fixed !important;
+    top: 50px;
+  
+    z-index: -2;
+  }
+  <div class="parallax-background"></div>
